@@ -25,8 +25,8 @@ This repository contains code for analyzing a hyperspectral imaging dataset. The
 1.  Clone the repository:
 
     ```
-    git clone [repository_url]
-    cd [repository_directory]
+    git clone (https://github.com/92kareeem/Hyperspectral_Imaging)
+    cd main.ipynb
     ```
 
 2.  Create a virtual environment (recommended):
