@@ -5,8 +5,8 @@
 This repository contains code for analyzing a hyperspectral imaging dataset. The code performs data preprocessing, model training, and evaluation using a 1D Convolutional Neural Network (CNN).
 
 ## Repository Structure
-*   `main.ipynb` or `main.py`: The main script containing the code for data loading, preprocessing, model training, and evaluation.
-*   `report.pdf` : A short report summarizing the preprocessing steps, insights from dimensionality reduction, model selection, training, and evaluation details, and key findings with suggestions for improvement.
+*   `Project.ipynb` : The main script containing the code for data loading, preprocessing, model training, and evaluation.
+*   `Project Report.pdf` : A short report summarizing the preprocessing steps, insights from dimensionality reduction, model selection, training, and evaluation details, and key findings with suggestions for improvement.
 *   `TASK-ML-INTERN.csv`: The hyperspectral imaging dataset.
 *   `README.md`: This file.
 
@@ -26,7 +26,7 @@ This repository contains code for analyzing a hyperspectral imaging dataset. The
 
     ```
     git clone (https://github.com/92kareeem/Hyperspectral_Imaging)
-    cd main.ipynb
+    cd Projedt.ipynb
     ```
 
 2.  Create a virtual environment (recommended):
@@ -52,13 +52,7 @@ This repository contains code for analyzing a hyperspectral imaging dataset. The
     *   For Jupyter Notebook:
 
         ```
-        jupyter notebook main.ipynb
-        ```
-
-    *   For Python script:
-
-        ```
-        python main.py
+        jupyter notebook Project.ipynb
         ```
 
 3.  The script will load the dataset, preprocess it, train the CNN model, evaluate the model, and display the evaluation metrics and a scatter plot of actual vs. predicted values.
